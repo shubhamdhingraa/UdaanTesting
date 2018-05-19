@@ -1,0 +1,62 @@
+<html>
+ <head>
+   <link rel="stylesheet" href="https://bootswatch.com/3/yeti/bootstrap.min.css">
+   <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="udaan.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDe7EhDSqNglBHjLbZC0ZsZ94X4rpG4GoU",
+    authDomain: "shubham-with-udaan.firebaseapp.com",
+    databaseURL: "https://shubham-with-udaan.firebaseio.com",
+    projectId: "shubham-with-udaan",
+    storageBucket: "shubham-with-udaan.appspot.com",
+    messagingSenderId: "319776700751"
+  };
+  firebase.initializeApp(config);
+</script>
+ </head>
+<body>
+</body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="index.html"><img src="https://telegram.org/img/t_logo.png" height="25" width="25" </img></a>
+      <a class="navbar-brand" href="index.html">Shubham With Udaan</a>
+   </div>
+  </div>
+</nav>
+
+
+<div class="container">
+     <div class="jumbotron">
+      <h3 align="center">Chatzzo...</h3>
+    <form id="searchForm">
+        <label for="name"><h4><b>Name:</b></h4></label>
+        <input type="text" id="sname" class="form-control" id="Type your name here !" placeholder="Your name ?"></input>
+         <br>
+        <label for="text"><h4><b>Notes:</b></h4></label>
+        <textarea class="form-control" rows="3" id="smsg" placeholder="Write notes here..."></textarea>
+  </form>
+  <center><button class="btn btn-primary" style="align:center" type="submit" form="searchForm" value="submit">Submit</button></center>
+
+</div style="background:cyan">
+</div>
+
+   <div class="container">
+     <div class="jumbotron">
+
+<div id="id">
+
+
+</div>
+
+</div>
+</div>
+
+</html>
